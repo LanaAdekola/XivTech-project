@@ -7,9 +7,7 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
   }
-  .general-wrapper{
-   margin: auto ;
-   width: 80%;
+.general-wrapper{
 
 }
 
@@ -25,7 +23,7 @@
     display: flex;
     flex-direction: column;
     gap: 2.3rem;
-    width: 26rem
+    width: 26rem;
 }
 
 .wrapper-container{
@@ -52,56 +50,69 @@ img{
     height: 100%;
 }
 .cloud-img{
-    height: 85%;
 }
 
-h2{
+a{
     font-size: 1.25rem;
     font-weight: 400;
+    color:#000000
+}
+a:hover{
+    color: rgb(96, 98, 99);
 }
 
-button{
-padding:  17px 52.28px 17px 52px;
-background: #000000;
-border-radius: 2px;
-color: white;
-margin-left: 8.5rem;
-margin-top: 1rem;
-display: inline-block;
-margin-bottom: 5rem;
 
+button{
+    padding:  17px 52.28px 17px 52px;
+    background: #000000;
+    border-radius: 2px;
+    color: white;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    display: inline-block;
+    margin-bottom: 5rem;
 }
 
 h4{
     font-size: 1.5rem;
     margin-bottom: 5rem;
     margin-top: 2rem;
+    margin-left: 11rem;
+
 }
 
   /* ============MEDIA QUERIES (small DEVICES)========== */
-  @media(max-width: 600px){
+  @media screen and (max-width: 600px){
     .wrapper{
       display: grid;
       grid-template-columns: 1fr;
+      padding: 1rem;
+      
     }
-  
-    .container-wrapper{
-
+    a{
+        margin-bottom: 2rem;
+        color: blue
     }
+    h3{
+        line-height: 2rem;
+    }
+    .container{
+       width: 90vw;
+     }
 
     .services-container{
-
+       padding: 3rem;
     }
     button{
-        margin-left: 0;
+        margin-left: 1rem;
     }
     h4{
         font-size: 1.5rem;
-        margin-left: 0;
+        margin-left: 2rem;
+        display: block;
 }
 .general-wrapper{
     width: 0;
- 
  }
  
  .wrapper{

@@ -1,6 +1,9 @@
 import React from 'react'
 import './choices.css'
 import CHOICE from '../../assets/choicesImg.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
 
 const Choices = () => {
   return (
@@ -10,7 +13,7 @@ const Choices = () => {
           <h1>Make <br/> Bolder <br/> Choices </h1>
           <h3>Digital focused strategies to realize market-changing ideas</h3>
         </div>
-        <h2>Build Better Apps</h2>
+        <a href=''>Build Better Apps  <FontAwesomeIcon className='icon' icon={faArrowRight} /></a>
       </div>
       <img src={CHOICE} className='img'/>
     </div>

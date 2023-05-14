@@ -7,14 +7,17 @@ import Cloud from './component/cloud/Cloud'
 
 const App = () => {
   return (
-    <div className='general-wrapper'>
-      <h4>Let's collaborate</h4>
-      <Services />
-      <Choices />
-      <Devops />
-      <Cloud />
+    <div >
+      <div className='general-wrapper'>
+        <h4>Let's collaborate</h4>
+        <Services />
+        <Choices />
+        <Devops />
+        <Cloud />
+      </div>
       <button>Get in touch</button>
     </div>
+    
   )
 }
 
